@@ -36,7 +36,7 @@ function getLength(str) {
   // substring gives "end " next values after "start" not recommended touse
   function getSubstring(str, start, end) {
     console.log("Original String:", str);
-    console.log("After substring:", str.substring(start, end));
+    console.log("After substring:", str.substring(start, end)); /////test
   }
   getSubstring("Hello World", 0, 5);
   
