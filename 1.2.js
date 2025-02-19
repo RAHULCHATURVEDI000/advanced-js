@@ -33,7 +33,7 @@ function getLength(str) {
   }
   getSlice("Hello World", 0, 5);
   
-  // substring gives "end " next values after "start" not recommended touse
+  // substring gives "end " next values after "start" not recommended to use
   function getSubstring(str, start, end) {
     console.log("Original String:", str);
     console.log("After substring:", str.substring(start, end)); /////test
